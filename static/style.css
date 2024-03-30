@@ -195,7 +195,7 @@ a, ul li{
 
 .part-3 .photo{
     max-width: 300px;
-    min-width: 170px;
+    min-width: 220px;
 }
 
 main{
@@ -662,7 +662,10 @@ footer{
         width: 150px;
     }
     
- 
+    .footer-container h1{
+        font-size: 7rem;
+    }
+    
    
 }
 

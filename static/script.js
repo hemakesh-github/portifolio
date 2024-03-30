@@ -36,5 +36,4 @@ setTimeout(function() {
     loader.style.top = "-100%";
 }, 2000)
 
-mediaTab.addEventListener("change",fun);
 loadfun()
