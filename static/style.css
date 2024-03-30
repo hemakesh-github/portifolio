@@ -745,6 +745,15 @@ footer{
     .mail{
         gap: 2px
     }
+    .footer-container{
+        height: 30vh;
+    }
+    .footer-animation{
+        bottom: 25vh;
+    }
+    .dummy-pg{
+        height: 30vh;
+    }
     .blob-1{
         width: 300px;
         height: 300px;
