@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Hemakesh</title>
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-content">
+            <h4>This</h4>
+            <h4>is</h4>
+            <h4>Hemakesh</h4> 
+        </div>
+    </div>
+    <div class="main-c">
+
+        <div class="blob blob-1"></div>
+        <div id = "nav">
+            <div class="nav">
+                <div class="nav-left">
+                    <span>HEMAKESH</span>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="#home" data-scroll-to class = "scroll-to">Home</a></li>
+                        <li><a href="#skills" data-scroll-to class = "scroll-to">Skills</a></li>
+                        <li><a href="#projects" data-scroll-to class = "scroll-to">Projects</a></li>
+                        <li><a href="mailto:hemakesh8333@gmail.com" id = "contact">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="container">
+                <div class="home-container" id = "home">
+                    <div class="part-1 bg-screen">
+                        <div class="socials">
+                            <a href="https://github.com/hemakesh-github"><img src="static/images/github.png" alt=""></a>
+                            <a href="www.linkedin.com/in/hemakesh"><img src="static/images/linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="part-2">
+                        <div id="intro">
+                            <span>
+                                <h1>HI,</h1>
+                                <h2>I am <div id="name">Hemakesh.</div></h2>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <span>
+                                Aspiring Software Engineer, AI Enthusiast
+                            </span>
+                        </div>
+                    </div>
+                    <div class="part-3">
+                        <div class="part-1 sm-screen">
+                            <div class="socials">
+                                <a href="https://github.com/hemakesh-github"><img src="static/images/github.png" alt=""></a>
+                                <a href="www.linkedin.com/in/hemakesh"><img src="static/images/linkedin.png" alt=""></a>
+                            </div>
+                        </div>
+                        <img src="static/images/shanks.svg" class="photo" alt="">
+                    </div>
+                    <div class="blob blob-2"></div>
+
+                </div>
+                <div class="skills-container" id = "skills">
+                    <img src="static/images/b.svg"  class = "b-svg"alt="">
+                    <div class="blob blob-5"></div>
+                    <div class="blob blob-3"></div>
+                    <div class="blob blob-4"></div>
+                    <div class="skill-label label">
+                        <h1>Skills</h1>
+                        <span>My Technical Level</span>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-box">
+                            <div class="skill-name">HTML</div>
+                            <div class="logo">
+                                <img src="static/images/html.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">CSS</div>
+                            <div class="logo">
+                                <img src="static/images/css.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="logo">
+                                <img src="static/images/js.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Python</div>
+                            <div class="logo">
+                                <img src="static/images/python.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Flask</div>
+                            <div class="logo">
+                                <img src="static/images/flask.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Java</div>
+                            <div class="logo">
+                                <img src="static/images/java.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="projects-container" id = "projects">
+                    <div class="projects-label label">
+                        <h1>Projects</h1>
+                    </div>
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+                        <div class="parallax-bg" style="
+                            background-color: rgba(117, 115, 250, 0.85);
+                            " data-swiper-parallax="-23%"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="title" data-swiper-parallax="-300">
+                                    <div class="project-image">
+                                        <img src="static/images/sundown.png" alt="">
+                                    </div>
+                                    <div class="text" data-swiper-parallax="-100">
+                                        <div class="project-desc">
+                                            <div class="p-title">
+                                                <h1>Sundown Studio clone</h1>
+                                            </div>
+                                            <div class="p-desc">
+                                                <p>This is a clone of <a href="https://www.sundown-studio.com/">sundown studio</a> website.<br>
+                                                Built using HTML, CSS and JS.
+                                                </p>
+                                            </div>
+                                            <div class="p-btns">
+                                                <button><a href="https://github.com/hemakesh-github/sundown-studio">Git Repo</a></button>
+                                                <button><a href="https://sundown-studio-clone-responsive.netlify.app">Visit site</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="title" data-swiper-parallax="-300">
+                                    <div class="project-image">
+                                        <img src="static/images/seekDiscomfort.png" alt="">
+                                    </div>
+                                    <div class="text" data-swiper-parallax="-100">
+                                        <div class="project-desc">
+                                            <div class="p-title">
+                                                <h1>Seek Discomfort website clone</h1>
+                                            </div>
+                                            <div class="p-desc">
+                                                <p>This is a clone of <a href="https://www.seekdiscomfort.com/">Seek Discomfort</a> website.<br>
+                                                Built using HTML, CSS and JS.
+                                                </p>
+                                            </div>
+                                            <div class="p-btns">
+                                                <button><a href="https://github.com/hemakesh-github/seek-discomfort">Git Repo</a></button>
+                                                <button><a href="https://seekdiscomfortclone.netlify.app">Visit site</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="swiper-slide">
+                            <div class="title" data-swiper-parallax="-300">
+                                <div class="project-image">
+                                    <img src="static/images/captainAppointEase.png" alt="">
+                                </div>
+                                <div class="text" data-swiper-parallax="-100">
+                                    <div class="project-desc">
+                                        <div class="p-title">
+                                            <h1>CaptainAppointEase</h1>
+                                        </div>
+                                        <div class="p-desc">
+                                            <p>This is a appointment booking site.<br>
+                                            Built using Flask, bootstrap, HTML, CSS and JS.
+                                            </p>
+                                        </div>
+                                        <div class="p-btns">
+                                            <button><a href="https://github.com/hemakesh-github/Captain-Appointease">Git Repo</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="title" data-swiper-parallax="-300">
+                                <div class="project-image">
+                                    <img src="static/images/NewsLetter.png" alt="">
+                                </div>
+                                <div class="text" data-swiper-parallax="-100">
+                                    <div class="project-desc">
+                                        <div class="p-title">
+                                            <h1>News Letter Subscription weibsite</h1>
+                                        </div>
+                                        <div class="p-desc">
+                                            <p>This is a fullstack News Letter subscription website<br>
+                                                Built using Flask, Postgresql, SQLalchemy, HTML, CSS and JS.
+                                            </p>
+                                        </div>
+                                        <div class="p-btns">
+                                            <button><a href="https://github.com/hemakesh-github/News_letter">Git Repo</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                </div>
+                
+            </div>
+
+        </main>
+        <div class="dummy-pg"></div>
+
+    </div>
+        <footer>
+            <div class="footer-animation">
+                <div class="box1"></div>
+                <div ></div>
+                <div class="box2"></div>
+            </div>
+            <div class="footer-container">
+                
+                <h1>Hemakesh</h1>
+                <div class="f-details">
+                    <div class="c-right">© Hemakesh</div>
+                    <div class="mail">
+                        <img src="static/images/Gmail.png" alt="">
+                        <span href="mailto:hemakesh8333@gmail.com">hemakesh8333@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script src = "https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
