@@ -24,7 +24,6 @@ let loader = document.querySelector(".loader");
 // const mediaTab = window.matchMedia("(max-width: 770px)");
 let loaderAnimeElements = document.querySelector(".loader h4");
 let loadfun = () => {
-    console.log(loaderAnimeElements.classList)
     loaderAnimeElements.classList.add("load");
     setTimeout(function() {
         loader.style.top = "-100%";
@@ -37,3 +36,4 @@ setTimeout(function() {
 }, 2000)
 
 loadfun()
+
