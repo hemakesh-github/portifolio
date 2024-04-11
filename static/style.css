@@ -465,14 +465,18 @@ main{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 4px;
+    border-color: transparent;
+    border-radius: 10px;
     background: #0F1CF3;
-    box-shadow: 0px 3px 8px 0px rgba(136, 144, 194, 0.25), 0px 7px 21px 0px rgba(37, 44, 97, 0.20);
+    box-shadow: 5px 3px 4px #02053c;
+    
+    transition: all 0.3s;
+
 }
 
 .p-btns button:hover{
-    background: #000dff;
-
+    background: #030862;
+    box-shadow: 0px 0px;
 }
 
 .footer-container{
